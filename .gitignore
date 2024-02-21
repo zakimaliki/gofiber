@@ -1,0 +1,34 @@
+# Ignore binary executables
+*.exe
+*.out
+
+# Ignore object files and build directories
+*.o
+*_test
+/vendor/
+/Godeps/
+/bin/
+/build/
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore any log files
+*.log
+
+# Ignore any cache or temporary files
+*.cache
+*.tmp
+
+# Ignore environment configuration files
+.env
+
+# Ignore any generated documentation
+/doc/
+/site/
+
+# Ignore any dependency lock files
+Gopkg.lock
